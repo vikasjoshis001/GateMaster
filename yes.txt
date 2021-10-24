@@ -1,0 +1,88 @@
+cd Desktop/Intellify
+source bin/activate
+cd ..
+cd "Yes MultiServices"
+cd yes_backend
+python3 manage.py runserver
+
+  
+                
+                
+ <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Create FIle
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a (click)="createCustomersPdf()">Pdf</a></li>
+                          <li><a (click)="createCustomersCSV()">Excel</a></li>
+                        </ul>
+                      </div>
+                      
+<head>
+  <link rel="stylesheet" href="/assets/CSS/navmenu.css">
+  <link rel="stylesheet" type="text/css" href="/assets/CSS/rpopup.css" />
+
+  <link rel="stylesheet"
+    href="file:///home/vikasjoshis001/Desktop/Yes%20MultiServices/yes_frontend/src/assets/CSS/font-awesome.min.css">
+
+  <link
+    href="file:///home/vikasjoshis001/Desktop/Yes%20MultiServices/yes_frontend/bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+    crossorigin="anonymous"
+    />
+
+
+
+  <!-- javascript -->
+  <script
+    src="file:///home/vikasjoshis001/Desktop/Yes%20MultiServices/yes_frontend/src/assets/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+  <link href="file:///home/vikasjoshis001/Desktop/Yes%20MultiServices/yes_frontend/src/assets/CSS/bootstrap.min.css"
+    rel="stylesheet" id="bootstrap-css">
+  <script src="file:///home/vikasjoshis001/Desktop/Yes%20MultiServices/yes_frontend/src/assets/js/bootstrap.min.js"></script>
+  <script src="file:///home/vikasjoshis001/Desktop/Yes%20MultiServices/yes_frontend/src/assets/js/jquery.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
+
+  <link rel="stylesheet"
+    href="file:///home/vikasjoshis001/Desktop/Yes%20MultiServices/yes_frontend/src/assets/CSS/font-awesome.css"
+    />
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+step 1)	Copy Project...
+
+step 2) Install Python...
+
+step 3) Create Virtual Env for Python
+pip install virtualenv
+virtualenv myenv
+myenv\Scripts\activate
+
+step 4) Install Requirements
+pip3 install requirements.txt
+
+step 5) Install npm
+Download from https://nodejs.org/en/download/
+verify using...
+npm -v
+
+step 6) Install Angular Requirements
+	a) npm install (for package.json)
+        b) remove package.json
+        c) npm clean cache --force
+        d) npm cache verified
+        e) npm install @angular/cli
+        f) npm install rxjs@6.6.6
+        g) npm install
+        h) npm install --save @angular/material @angular/cdk
+        i) ng serve
+
+step 7) Run Project
+
+step 8) Create Service
+
+packages to install...
+
+1) npm install --save-dev @angular-devkit/build-angular
+2) 
